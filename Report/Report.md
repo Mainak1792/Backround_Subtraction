@@ -41,17 +41,57 @@ The parameters are as follows:
 - Weight
 ## Learning Rate
 
+### BackGround 
+Our Experiments show optimum learning for a background is 0.01.
+- Learning Rate 0.1
+<img width="242" alt="blr0 1" src="https://user-images.githubusercontent.com/76518189/152182713-c32b0db8-16ea-43f0-92a1-eaebf3a77953.png">
+- Learning Rate 0.01
+	<img width="238" alt="blr0 01" src="https://user-images.githubusercontent.com/76518189/152182641-1e99a4b6-dda7-4b20-90b2-55942280e13c.png">
+ - Learning Rate 0.001 
+<img width="248" alt="blr0 001" src="https://user-images.githubusercontent.com/76518189/152182550-e469c32a-b298-4d05-a20d-f532fcbd84e4.png">
 
-| Learning RATE  	| 1  	| 0.1  	|  0.01 	| 0.001  	|
-|:-: 	|:-:	|:-:	|:-:	|:-:	|
+### Foreground
+The optimum learning rate for a foreground is 0.1.
+- Learning Rate 0.1
+ <img width="252" alt="lr0 1" src="https://user-images.githubusercontent.com/76518189/152183425-aeb858ed-6ad3-47df-9b61-c62fad0b7f51.png">
+- Learning Rate 0.01
+<img width="245" alt="lr0 01" src="https://user-images.githubusercontent.com/76518189/152183556-6cded4c1-e7fb-499c-abbb-ff9e8f400dde.png">
+- Learning Rate 0.001
+<img width="242" alt="lr0 001" src="https://user-images.githubusercontent.com/76518189/152183593-893267fb-3ba4-4a0d-9107-b3c30f2bc4d9.png">
+
 
 ## Threshold
-|Threshold   	|  1 	| 0.65  	| 0.75  	| 0.5  	|
-|:-: 	|:-:	|:-:	|:-:	|:-:	|
 
-##Variance
-|Variance   	| 100  	| 75  	| 32  	|  6 	|
-|:-: 	|:-:	|:-:	|:-:	|:-:	|
+### Background
+Threshold 
+### Foreground
+
+## Variance
+
+### Background
+- Variance 100
+<img width="252" alt="bvar100" src="https://user-images.githubusercontent.com/76518189/152184310-cbd71764-75c9-460c-8a07-fc5c40e05223.png">
+- Variance 64
+<img width="242" alt="bvar64" src="https://user-images.githubusercontent.com/76518189/152184401-197e58c8-bd6c-4e7f-bb60-3c5f7968c621.png">
+
+- Variance 32
+<img width="239" alt="bvar32" src="https://user-images.githubusercontent.com/76518189/152184427-19cd1af5-c1c7-4005-9024-64dd23a28237.png">
+
+- Variance 6
+<img width="247" alt="bvar5" src="https://user-images.githubusercontent.com/76518189/152184459-02ecfb2f-4e74-4408-a8e7-5087759871a6.png">
+
+### Foreground
+- Variance 100
+<img width="248" alt="FVAR100" src="https://user-images.githubusercontent.com/76518189/152184498-8478be35-d3e5-4623-80a9-7c0328242ac5.png">
+
+- Variance 64
+<img width="252" alt="FVAR63" src="https://user-images.githubusercontent.com/76518189/152184521-cbb26e9e-a562-4276-b6f9-e200521dc913.png">
+
+- Variance 32
+<img width="244" alt="FVAR32" src="https://user-images.githubusercontent.com/76518189/152184555-fd7324a2-6bc9-484f-a5c0-42c73b9a9e1f.png">
+
+- Variance 6
+<img width="240" alt="FVAR6" src="https://user-images.githubusercontent.com/76518189/152184583-41971ee4-e0cc-4e83-9c69-1d5288e47171.png">
 
 ## Weight
 |Weight   	| 1  	| 0.75  	| 0.5  	|  0.25 	|
