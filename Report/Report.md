@@ -4,7 +4,8 @@ To Use the idea of motion segmentation, from the papers below. To segment out th
 - one with the foreground objects
 
 ### Original Frame :
-![22](https://user-images.githubusercontent.com/76518189/152031934-80527d51-7509-434f-b362-9ca41ea4f0ad.jpg)
+ <img width="252" alt="lr0 1" src="https://user-images.githubusercontent.com/76518189/152031934-80527d51-7509-434f-b362-9ca41ea4f0ad.jpg">
+
 ### Foreground Frame:
  ![res900](https://user-images.githubusercontent.com/76518189/152031722-00db92b7-484f-420b-b64c-5884b5cb3d92.png)
 
@@ -63,8 +64,30 @@ The optimum learning rate for a foreground is 0.1.
 ## Threshold
 
 ### Background
-Threshold 
+- Threshold 1
+<img width="240" alt="bthr1" src="https://user-images.githubusercontent.com/76518189/152189378-ab2dc1b4-747f-49ee-ba6e-bf1b148618e4.png">
+
+
+- Threshold 0.75
+<img width="238" alt="bthr0 75" src="https://user-images.githubusercontent.com/76518189/152189462-7bfd2c9c-a196-4b80-ad52-60e1edc82e38.png">
+
+
+- Threshold 0.5
+<img width="251" alt="fthe0 5" src="https://user-images.githubusercontent.com/76518189/152189656-cefed7ba-78a5-4517-90a1-edcdfcf0ac27.png">
+
+ 
 ### Foreground
+
+- Threshold 1
+<img width="245" alt="image" src="https://user-images.githubusercontent.com/76518189/152190142-89e71d99-2ac0-4982-8806-74ce12248494.png">
+
+
+
+- Threshold 0.75
+<img width="245" alt="bthr0 7" src="https://user-images.githubusercontent.com/76518189/152189840-6d04db76-4713-45c3-9d5e-54a0d0171310.png">
+
+- Threshold 0.5
+<img width="247" alt="bth0 5" src="https://user-images.githubusercontent.com/76518189/152189787-8237660d-d07a-4cdc-b9fc-36d7d90acdc9.png">
 
 ## Variance
 
@@ -93,6 +116,7 @@ Threshold
 - Variance 6
 <img width="240" alt="FVAR6" src="https://user-images.githubusercontent.com/76518189/152184583-41971ee4-e0cc-4e83-9c69-1d5288e47171.png">
 
-## Weight
-|Weight   	| 1  	| 0.75  	| 0.5  	|  0.25 	|
-|:-: 	|:-:	|:-:	|:-:	|:-:	|
+
+
+
+ ---
