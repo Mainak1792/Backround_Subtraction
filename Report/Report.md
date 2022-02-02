@@ -7,7 +7,31 @@ To Use the idea of motion segmentation, from the papers below. To segment out th
 ![22](https://user-images.githubusercontent.com/76518189/152031934-80527d51-7509-434f-b362-9ca41ea4f0ad.jpg)
 ### Foreground Frame:
  ![res900](https://user-images.githubusercontent.com/76518189/152031722-00db92b7-484f-420b-b64c-5884b5cb3d92.png)
- 
+
+## Steps
+
+### Initialisation
+- Assign initial parameters.
+- Learning Rate, mean(first pixel location) , variance , Weight(summation 1), variance
+
+### Creating Model
+
+
+#### CASE 1: Atleast One Gaussian Match
+- Match of Xt(another pixel location)
+- (xt-ut)/sigma <=2.5
+
+#### CASE 2: No Gaussian Match
+- Create a new Gaussian for Xt
+- low weight
+- u=xt
+- large sigma
+- Remove the gaussian with least weight if they are already K gaussians
+
+### Updating Model
+
+### Subtraction Process
+- sort all gaussian
 ## Assumptions
 We have only experimented on the template video. The parameters which we have experimented upon is limited to this video only. [Link](https://github.com/Mainak1792/Backround_Subtraction/blob/main/assets/umcp.mpg)
 The parameters are as follows:
