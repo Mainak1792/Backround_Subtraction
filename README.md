@@ -18,5 +18,5 @@ This Project is a assingment of ELL784, an introductory machine learning course 
 - The value of each pixel represents a measurement of the radiance in the direction of the sensor of the first object intersected by the pixels optical ray. With a static background and static lighting, that value would be relatively constant.
 
 ## Output
- - Please look into the report for the detailed explanation
- - 
+ - Please look into the [report](https://github.com/Mainak1792/Backround_Subtraction/blob/main/Report/Report.md) for the detailed explanation
+ 
