@@ -17,6 +17,8 @@ This Project is a assingment of ELL784, an introductory machine learning course 
 - The pixel process is a time series of pixel values, e.g. scalars for grayvalues or vectors for color images.
 - The value of each pixel represents a measurement of the radiance in the direction of the sensor of the first object intersected by the pixels optical ray. With a static background and static lighting, that value would be relatively constant.
 
-## Output
+## Report
  - Please look into the [report](https://github.com/Mainak1792/Backround_Subtraction/blob/main/Report/Report.md) for the detailed explanation
  
+## Output
+ - Find the [Background]() and [Foreground]() video. 
