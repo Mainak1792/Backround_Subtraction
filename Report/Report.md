@@ -15,7 +15,7 @@ ii) Generate two videos (in terms of the frames, and the video file as well) -
 
 ### Initialisation
 - Assign initial parameters.
-- Learning Rate, mean(first pixel location) , variance , Weight(summation 1), variance
+- Learning Rate, mean(first pixel location) , large standard deviation , Weight(summation 1), Threshold
 
 ### Creating Model
 - Background Subtraction using on-line K means
@@ -23,8 +23,10 @@ ii) Generate two videos (in terms of the frames, and the video file as well) -
 
 
 #### CASE 1: Atleast One Gaussian Match
-- Match of Xt(another pixel location)
-- (xt-ut)/sigma <=2.5
+- Matches whether the gaussian will generate the current observation Xt(pixel location)
+- Matching Definition:
+M(xt) = 1 ; (xt-ut)/sigma <=2.5
+      = 0 ; otherwise
 
 #### CASE 2: No Gaussian Match
 - Create a new Gaussian for Xt
