@@ -20,25 +20,26 @@ ii) Generate two videos (in terms of the frames, and the video file as well) -
 - Background Subtraction using on-line K means
 ![Background Subtraction](https://user-images.githubusercontent.com/68754422/152684594-71407c7c-22bd-4906-83a3-4115f3006355.png)
 
-
-
 #### CASE 1: Atleast One Gaussian Match
 - Matches whether the gaussian will generate the current observation Xt(pixel location)
 - Matching Definition:
-M(xt) = 1 ; (xt-ut)/sigma <=2.5
-      = 0 ; otherwise
+M(xt) = 1 when (xt-ut)/sigma <=2.5
+      = 0 , otherwise
 
 #### CASE 2: No Gaussian Match
 - Create a new Gaussian for Xt
 - low weight
-- u=xt
+- u=current pixel location xt
 - large sigma
 - Remove the gaussian with least weight if they are already K gaussians
+- add created Gaussian as one of the K Gaussians
 
 ### Updating Model
 
 ### Subtraction Process
-- sort all gaussian
+- sort all K gaussians in descending order of weight/ std_dev
+- if weight/ std_dev of  first B gaussians > threshold ---> Background Guassian
+- - subtracted image gives the foreground object
 ## Assumptions
 We have only experimented on the template video. The parameters which we have experimented upon is limited to this video only. [Link](https://github.com/Mainak1792/Backround_Subtraction/blob/main/assets/umcp.mpg)
 The parameters are as follows:
