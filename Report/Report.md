@@ -15,6 +15,8 @@ ii) Generate two videos (in terms of the frames, and the video file as well) -
 ### Initialisation
 - Assign initial parameters.
 - Learning Rate, mean(first pixel location) , large standard deviation , Weight(summation 1), Threshold
+![gaussian](https://user-images.githubusercontent.com/68754422/152685028-dd0948bd-0267-428b-831a-53431d3b3928.png)
+
 
 ### Creating Model
 - Background Subtraction using on-line K means
