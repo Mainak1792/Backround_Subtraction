@@ -18,7 +18,8 @@ ii) Generate two videos (in terms of the frames, and the video file as well) -
 
 ### Creating Model
 - Background Subtraction using on-line K means
-![Background Subtraction](https://user-images.githubusercontent.com/68754422/152684594-71407c7c-22bd-4906-83a3-4115f3006355.png)
+![Background Subtraction](https://user-images.githubusercontent.com/68754422/152684910-0496c665-ce91-459a-9cae-27502a94e0a6.png)
+
 
 #### CASE 1: Atleast One Gaussian Match
 - Matches whether the gaussian will generate the current observation Xt(pixel location)
