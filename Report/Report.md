@@ -1,7 +1,9 @@
 ## Aim
-To Use the idea of motion segmentation, from the papers below. To segment out the foreground, you may use the Sequential Labelling algorithm. Or K-Means, for that matter. Please generate two videos (in terms of the frames, and the video file as well) -
+i) To Use the idea of motion segmentation, to segment out the foreground, using Sequential Labelling algorithm Or K-Means, for that matter. 
+ii) Generate two videos (in terms of the frames, and the video file as well) -
 - the background, and
 - one with the foreground objects
+- 
 
 ### Original Frame :
  <img width="252" alt="lr0 1" src="https://user-images.githubusercontent.com/76518189/152031934-80527d51-7509-434f-b362-9ca41ea4f0ad.jpg">
@@ -16,6 +18,8 @@ To Use the idea of motion segmentation, from the papers below. To segment out th
 - Learning Rate, mean(first pixel location) , variance , Weight(summation 1), variance
 
 ### Creating Model
+- Background Subtraction using on-line K means
+![Background Subtraction](https://user-images.githubusercontent.com/68754422/152684006-cce67572-3ec1-482b-9e35-386a11676654.png)
 
 
 #### CASE 1: Atleast One Gaussian Match
