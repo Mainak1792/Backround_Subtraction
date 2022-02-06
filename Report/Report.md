@@ -26,7 +26,7 @@
 #### CASE 1: Atleast One Gaussian Match
 - Matches whether the gaussian will generate the current observation Xt(pixel location)
 - Matching Definition:
-M(xt) = 1 when (xt-ut)/sigma <=2.5
+M(xt) = 1 when (xt-ut)/sigma <=2.5; 
       = 0 , otherwise
 
 #### CASE 2: No Gaussian Match
