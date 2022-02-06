@@ -1,6 +1,6 @@
 ## Aim
-i) To Use the idea of motion segmentation, to segment out the foreground, using Sequential Labelling algorithm Or K-Means, for that matter. 
-ii) Generate two videos (in terms of the frames, and the video file as well) -
+-i) To Use the idea of motion segmentation, to segment out the foreground, using Sequential Labelling algorithm Or K-Means. 
+-ii) Generate two videos (in terms of the frames, and the video file as well) -
 - the background, and
 - one with the foreground objects
 
