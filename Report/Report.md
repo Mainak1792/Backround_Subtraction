@@ -3,7 +3,6 @@ i) To Use the idea of motion segmentation, to segment out the foreground, using 
 ii) Generate two videos (in terms of the frames, and the video file as well) -
 - the background, and
 - one with the foreground objects
-- 
 
 ### Original Frame :
  <img width="252" alt="lr0 1" src="https://user-images.githubusercontent.com/76518189/152031934-80527d51-7509-434f-b362-9ca41ea4f0ad.jpg">
@@ -19,7 +18,8 @@ ii) Generate two videos (in terms of the frames, and the video file as well) -
 
 ### Creating Model
 - Background Subtraction using on-line K means
-![Background Subtraction](https://user-images.githubusercontent.com/68754422/152684006-cce67572-3ec1-482b-9e35-386a11676654.png)
+![Background Subtraction](https://user-images.githubusercontent.com/68754422/152684594-71407c7c-22bd-4906-83a3-4115f3006355.png)
+
 
 
 #### CASE 1: Atleast One Gaussian Match
