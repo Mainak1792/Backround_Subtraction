@@ -21,4 +21,8 @@ This Project is a assingment of ELL784, an introductory machine learning course 
  - Please look into the [report](https://github.com/Mainak1792/Backround_Subtraction/blob/main/Report/Report.md) for the detailed explanation
  
 ## Output
- - Find the [Background](https://github.com/Mainak1792/Backround_Subtraction/blob/main/assets/background_video.mp4) and [Foreground](https://github.com/Mainak1792/Backround_Subtraction/blob/main/assets/foreground.mp4) video. 
+The foreground and Background Videos are as follows:
+<!--  - Find the [Background](https://github.com/Mainak1792/Backround_Subtraction/blob/main/assets/background_video.mp4) and [Foreground](https://github.com/Mainak1792/Backround_Subtraction/blob/main/assets/foreground.mp4) video.  -->
+![ezgif com-gif-maker](https://user-images.githubusercontent.com/76518189/152741364-0a8b48bb-95e2-402a-bda8-05e36aef75f5.gif)
+![ezgif com-gif-maker (1)](https://user-images.githubusercontent.com/76518189/152741531-8aee91b3-da2a-4c78-a990-b54d04718ebf.gif)
+
